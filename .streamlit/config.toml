@@ -1,0 +1,20 @@
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+address = "0.0.0.0"
+enableStaticServing = true   # serves static/fonts/* so the typefaces work offline
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+base = "light"
+primaryColor = "#421D22"
+backgroundColor = "#F4E6DA"
+secondaryBackgroundColor = "#FBF5EF"
+textColor = "#302326"
+font = "sans serif"
